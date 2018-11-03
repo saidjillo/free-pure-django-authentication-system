@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Junior Full stack web developer | Said Umuru Jillo
+{% endblock %}
+
+{% block content %}
+<div class="container" style="margin-top:80px;">
+   <div class="row">
+      <div class="col col-md-3">
+          <div class="prof-view">
+              <div class="prof-view__pic">
+                    {% load static %}
+                    <img src="{% static 'img/bg_prof.png' %}" alt="background image" id="img-1">
+                    <img src="{% static 'img/said.jpg' %}" alt="Said Umuru Jillo" id="img-2">
+              </div>
+              <div class="prof-view__details" style="margin-top:2%;">
+                   <div class="card">
+                       <h5 class="card-title text-center">University of Nairobi</h5>
+                       <div class="card-body">
+                          <p class="card-text text-center">Bsc.Microprocessor technology and Instrumentation</p>
+                          <b>contact me:</b><br />
+                          Eastleigh Nairobi, Kenya<br />
+                          Phone: +254740169448<br />
+                          <a href="mailto:umurjillo@gmail.com">umurjillo@gmail.com</a><br />
+                       </div>
+                   </div>
+             
+              </div>
+          </div>
+      </div>
+      <div class="col col-md-6">
+        <h3>Contacts Info:</h3>
+        <p>email: umurjillo@gmail.com
+        </p>
+        <p>Telephone: +254740169448</p>
+
+
+        <h4>My Social Links</h4>
+        <div class="socio-copyright">
+
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/said.jillo.75"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://twitter.com/ceidjillo"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://plus.google.com/106705653409249069426"><i class="fa fa-google-plus"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/said-jillo-440b817a/"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+      </div> 
+      <div class="col col-md-3"></div>
+   </div>
+</div>
+
+{% endblock %}

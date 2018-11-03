@@ -8,20 +8,26 @@ Django Project implementing complete user authentication system, where user can 
 Project uses pure Django
 
 ## Project features
-Sometimes you want numbered lists:
+The project uses the following features of django:
 
-1. One
-2. Two
-3. Three
+1. Django forms (UserCreationForm, UserChangeForm, PasswordChangeForm) - These forms have slightly been extended 
+   to add more customization.
+2. Extending Django User model
+3. Twitter Bootstrap
 
-Sometimes you want bullet points:
 
-* Start a line with a star
-* Profit!
+You may want to download or install the project:
 
-Alternatively,
+For virtualenv to install all files in the requirements.txt file.
+  *  cd to the directory where requirements.txt is located
+  *  activate your virtualenv
+  *  run:  ```pip install -r requirements.txt``` in your shell
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
+You can the launch the program by running:
+-  ```python manage.py runserver``` in your shell
+
+
+
+## LIVE DEMO
+The project is currently hosted on heroku.
+[Pure Django Authentication system](https://fathomless-falls-62042.herokuapp.com/)
